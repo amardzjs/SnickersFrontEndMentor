@@ -1,0 +1,104 @@
+.Nav-bar ul
+    {
+        list-style-type: none;
+        margin: 0;
+        padding:15px;
+        display:flex;
+        align-items: center;
+        justify-content:space-around;
+    
+    }
+
+    #cart
+    {
+        margin-left:0px;
+    }
+    #profile
+    {
+        margin-left:0px;
+    }
+
+
+    .container
+    {
+        width:600px;
+    }
+
+
+    .shop
+{
+    display:flex;
+    flex-direction:column;
+    
+}
+
+    .small
+{
+    display:none;
+   
+   
+
+}
+
+#bigpic
+{
+    width:40%;
+    height:40%;
+    object-fit: fill;
+    border-radius:15px;
+    
+
+    
+}
+
+
+
+
+.Infos
+{
+    flex:1;
+    height:60vh;
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    padding:15px;
+    justify-content:space-around;
+    
+
+}
+
+.Buy
+{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content: space-between;
+    gap:40px;
+    padding:20px;
+
+
+}
+
+
+.plus
+{
+    display:flex;
+    align-items:center;
+    flex-direction:row;
+    justify-content: center;
+    gap:100px;
+}
+
+
+.name
+{
+    font-size:40px;
+    max-width:100%;
+}
+
+
+.original
+{
+    margin-right:15%;
+
+}

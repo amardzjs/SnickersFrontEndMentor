@@ -1,0 +1,232 @@
+body{
+    margin:auto;
+    background-color:white;
+}
+
+*{
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    box-sizing: border-box;
+    font-family: "Outfit", sans-serif;
+
+}
+.container
+{
+    margin: auto;
+    width:968px;
+    display:flex;
+    flex-direction:column;
+    align-items:normal;
+    gap:40px;
+}
+
+
+
+
+
+
+
+.Nav-bar ul
+{
+    list-style-type: none;
+    margin: 0;
+    padding:15px;
+    display:flex;
+    align-items: center;
+
+}
+
+.Nav-bar ul li 
+{
+    margin: 0 10px;
+    color:#9fa0a1;
+
+}
+a 
+{
+    text-decoration:none;
+    color:#9fa0a1;
+
+    
+}
+
+
+
+#cart
+{
+    margin-left:auto;
+}
+#profile
+{
+    margin-left:30px;
+}
+
+
+
+
+
+
+.shop
+{
+    display:flex;
+    flex-direction:row;
+    
+}
+
+.Pics
+{
+    flex:1;
+
+}
+
+
+
+.big
+{
+    display: flex;
+    justify-content: center;
+    
+    
+    
+}
+.small
+{
+    display:flex;
+    align-items:center;
+    justify-content:space-around;
+    padding:20px 80px 0 80px;
+   
+
+}
+
+#bigpic
+{
+    width:65%;
+    height:65%;
+    object-fit: fill;
+    border-radius:15px;
+    
+
+ 
+}
+
+#smallpic
+{
+    width:21%;
+    height:21%;
+    border-radius:15px;
+}
+
+
+.Infos
+{
+    flex:1;
+    height:60vh;
+    display:flex;
+    flex-direction: column;
+    align-items:flex-start;
+    padding:15px;
+    justify-content:space-around;
+    
+
+}
+
+
+.Infos div 
+{
+    font-weight:bold;
+}
+
+.Infos p
+{
+    max-width:400px;
+    font-size:15px;
+    color:#9fa0a1;
+    font-weight:bold;
+}
+
+.company
+{
+    color:#fc9c36;
+    font-size:15px;
+    margin-bottom:5px;
+}
+
+.name
+{
+    font-size:40px;
+    max-width:80%;
+}
+
+.pd
+{
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+    gap:40px;
+}
+
+.Price
+{
+ font-size:30px;
+ font-weight:bold;
+}
+
+.Discount
+{
+    color:#fc9c36;
+    font-weight:bold;
+}
+
+.original
+{
+    color:#9fa0a1;
+    text-decoration: line-through;
+}
+
+.Buy
+{
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+    gap:40px;
+    padding:20px;
+
+
+}
+
+.plus
+{
+    display:flex;
+    align-items:center;
+    flex-direction:row;
+    justify-content: center;
+    gap:50px;
+}
+
+
+.AddButton
+{
+    padding:10px;
+    background-color:#da6e2e;
+    width:200px;
+    text-align: center;
+    color:white;
+    display:flex;
+    align-items: center;
+    justify-content:center;
+    gap:5px;
+}
+
+.AddButton img
+{
+    color:white;
+}
+
+.count
+{
+    font-size:20px;
+}
+
+
+
