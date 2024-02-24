@@ -10,6 +10,8 @@
 
 
 
+
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
@@ -22,7 +24,7 @@
         <div class="Nav-bar">
         <ul>
             <li id="Logo">
-                <img src="logo.svg">
+                <img src="images/logo.svg">
             </li>
             <li><a href="#">Collections</a></li>
             <li><a href="#">Men</a></li>
@@ -31,12 +33,12 @@
             <li><a href="#">Contact</a></li>
             <li id="cart">
                 <a href="#">
-                    <img src="icon-cart.svg">
+                    <img src="images/icon-cart.svg">
                 </a>  
             </li>
             <li id="profile">
                 <a href="#">
-                    <img src="image-avatar.png" width="40px" height="40px">
+                    <img src="images/image-avatar.png" width="40px" height="40px">
                 </a> 
             </li>
 
@@ -46,13 +48,96 @@
         <div class="shop">
             <div class="Pics">
                 <div class="big">
-          <img src="image-product-1.jpg" id="bigpic">
+                    
+
+
+
+
+
+
+
+
+                    <div class="slideshow-container">
+
+                        <div class="mySlides fade">
+                          <div class="numbertext">1 / 3</div>
+                          <img src="images/image-product-1.jpg" id="smallpic" style="width:100%">
+                        </div>
+                        
+                        <div class="mySlides fade">
+                          <div class="numbertext">2 / 3</div>
+                          <img src="images/image-product-2.jpg" id="smallpic" style="width:100%">
+                        </div>
+                        
+                        <div class="mySlides fade">
+                          <div class="numbertext">3 / 3</div>
+                          <img src="images/image-product-3.jpg" id="smallpic" style="width:100%">
+                        </div>
+
+                        <div class="mySlides fade">
+                            <div class="numbertext">4 / 3</div>
+                            <img src="images/image-product-4.jpg" id="smallpic" style="width:100%">
+                          </div>
+                        
+                        <a class="prev" onclick="plusSlides(-1)">❮</a>
+                        <a class="next" onclick="plusSlides(1)">❯</a>
+
+                        <div style="text-align:center">
+                            <span class="dot" onclick="currentSlide(1) "></span> 
+                            <span class="dot" onclick="currentSlide(2)"></span> 
+                            <span class="dot" onclick="currentSlide(3)"></span> 
+                            <span class="dot" onclick="currentSlide(4)"></span> 
+  
+                          </div>
+  
+                        
+                        </div>
+                        <br>
+                        
+                       
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                    
+
+                    
                 </div>
                 <div class="small">
-                 <img src="image-product-1-thumbnail.jpg" id="smallpic">
-                    <img src="image-product-2-thumbnail.jpg" id="smallpic">
-                    <img src="image-product-3-thumbnail.jpg" id="smallpic">
-                    <img src="image-product-4-thumbnail.jpg" id="smallpic">
+                    <img src="images/image-product-1-thumbnail.jpg" id="smallpic" onclick="currentSlide(1)">
+                    <img src="images/image-product-2-thumbnail.jpg" id="smallpic" onclick="currentSlide(2)">
+                    <img src="images/image-product-3-thumbnail.jpg" id="smallpic" onclick="currentSlide(3)">
+                    <img src="images/image-product-4-thumbnail.jpg" id="smallpic" onclick="currentSlide(4)">
                 </div>
             </div>
             <div class="Infos">
@@ -68,15 +153,15 @@
                 <div class="original">$250</div>
                 <div class="Buy">
                     <div class="plus">
-                 <a href="#"><img src="icon-minus.svg"></a>   
+                 <a href="#"><img src="images/icon-minus.svg"></a>   
                     <div class="count">0</div>
-                <a href="#"><img src="icon-plus.svg"></a>    
+                <a href="#"><img src="images/icon-plus.svg"></a>    
             </div>
 
                    
                         <a id="button" href="#">
                             <div class="AddButton">
-                            <img src="icon-cart.svg">
+                            <img src="images/icon-cart.svg">
                         Add to Cart
                     </div>
                         </a>
@@ -87,5 +172,7 @@
             </div>
         </div>
     </div>
+    <script src="script.js"></script>
+
 </body>
 </html>
